@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -7,10 +7,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/style/style.css">
     <title>Courir</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 </head>
 
 <body>
-    <h1>Hello</h1>
+    <header>
+        <div class="container">
+            <div>
+                <h1>Courir</h1>
+                <p>Courir 30 minutes par jour vous fera vous sentir en meilleure santé, plus jeune, plus actif et vous aidera à vivre plus longtemps. Profitez des avantages de la course à pied !</p>
+                <a href="#avantages" class="button">Apprenez-en plus !</a>
+            </div>
+        </div>
+        <div class="img-banner"></div>
+    </header>
+
+    <section class="section-1">
+        <div class="img">
+        </div>
+        <div class="container" id="avantages">
+            <div>
+                <h2>Quelques avantages</h2>
+                <p>Les avantages de la course sont nombreux. La pratique du running apporte des multiples bienfaits sur notre corps. Grâce à ce sport, nous pouvons perdre du poids, améliorer la circulation sanguine, enrichir la vie sexuelle et réduire le
+                    stress.
+                </p>
+                <a href="#bienfaits" class="button">En savoir plus !</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-2">
+        <div class="container" id="bienfaits">
+            <div>
+                <h2>Quelques bienfaits</h2>
+                <p>De plus, il ne faut pas oublier que l’activité physique quotidienne et contrôlée peut nous aider à vivre plus longtemps et de façon agréable. En général, les avantages de la course à pied sont plus larges, nous pouvons ajouter l’augmentation
+                    de la qualité du sommeil et de l’humeur. Il a été constaté que sortir pour marcher ou courir favorise l’augmentation des hormones du « bonheur .</p>
+                <a href="https://www.adidas.fr/baskets" class="button">Achetez des baskets !</a>
+            </div>
+        </div>
+        <div class="img"></div>
+    </section>
+
+    <section class="contact">
+        <h2>Prendre contact</h2>
+        <form action="#">
+            <div class="form-grid">
+                <div>
+                    <label for="nom">Name</label>
+                    <input type="text" id="nom" placeholder="Inscrivez votre nom">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Inscrivez l'email">
+                </div>
+                <div class="textarea">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Inscrivez votre message"></textarea>
+                </div>
+            </div>
+            <input type="submit" class="button" value="Envoyer le message">
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
 </body>
 
 </html>
