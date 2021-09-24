@@ -59,6 +59,7 @@ footer a:hover {
 
 .button:hover {
     background-color: skyblue;
+    color: white;
 }
 
 .container {
@@ -180,4 +181,58 @@ footer:before {
     left: 50%;
     transform: translateX(-50%);
     top: 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    margin: 0 auto;
+    min-width: 300px;
+}
+
+footer a {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+
+/***************** RESPONSIVE *************************/
+
+@media screen and (max-width: 660px) {
+    header,
+    .section-2,
+    .section-1 {
+        display: block;
+    }
+    header {
+        height: auto;
+        margin-top: 30px;
+    }
+    header .img-banner {
+        height: 50vh;
+    }
+    .section-2 {
+        height: auto;
+    }
+    .container {
+        padding: 15px;
+    }
+    footer ul {
+        min-width: 200px;
+    }
+    footer a {
+        width: 31px;
+        height: 31px;
+    }
+    footer i {
+        font-size: 0.8rem;
+    }
 }
